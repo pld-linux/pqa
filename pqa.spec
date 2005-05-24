@@ -18,7 +18,7 @@ Application allowing you to analyze the queries of PostgreSQL or MySQL
 database to see if they can be improved.
 
 %description -l pl
-Aplikacja ta pozwaja ci analizowaæ zapytania wysy³ane do baz danych
+Aplikacja ta pozwala analizowaæ zapytania wysy³ane do baz danych
 PostgreSQLa lub MySQLa aby zaobaczyæ czy mo¿na je ulepszyæ.
 
 %prep
