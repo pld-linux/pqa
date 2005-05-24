@@ -19,7 +19,7 @@ database to see if they can be improved.
 
 %description -l pl
 Aplikacja ta pozwala analizowaæ zapytania wysy³ane do baz danych
-PostgreSQLa lub MySQLa aby zaobaczyæ czy mo¿na je ulepszyæ.
+PostgreSQL lub MySQL aby zobaczyæ czy mo¿na je ulepszyæ.
 
 %prep
 %setup -q
