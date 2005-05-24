@@ -2,11 +2,12 @@ Summary:	Practical Query Analysis
 Summary(pl):	Praktyczny analizator zapytañ
 Name:		pqa
 Version:	1.5
-Release:	0.2
+Release:	0.3
 License:	BSD
 Group:		Development/Languages
 Source0:	http://pgfoundry.org/frs/download.php/155/%{name}-%{version}.zip
 # Source0-md5:	1e1429994a5b46df6558d241422cfc50
+Patch0:		http://pgfoundry.org/tracker/download.php/1000008/132/1000262/45/pqa.rb.patch
 URL:		http://pqa.projects.postgresql.org/
 BuildRequires:	sed >= 4.0
 Requires:	ruby
@@ -22,6 +23,8 @@ PostgreSQLa lub MySQLa aby zaobaczyæ czy mo¿na je ulepszyæ.
 
 %prep
 %setup -q
+%patch0 -p0
+
 sed -i -e '1s,.*ruby,#!%{_bindir}/ruby,' pqa.rb
 
 %install
