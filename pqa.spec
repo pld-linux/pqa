@@ -1,4 +1,5 @@
 Summary:	Practical Query Analysis
+Summary(pl):	Praktyczny analizator zapytañ
 Name:		pqa
 Version:	1.5
 Release:	0.2
@@ -14,6 +15,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Application allowing you to analyze the queries of PostgreSQL or MySQL
 database to see if they can be improved.
+
+%description -l pl
+Aplikacja ta pozwaja ci analizowaæ zapytania wysy³ane do baz dancyh
+PostgreSQLa lub MySQLa aby zaobaczyæ czy mo¿na je ulepszyæ.
 
 %prep
 %setup -q
