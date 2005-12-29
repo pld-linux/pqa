@@ -9,8 +9,9 @@ Source0:	http://pgfoundry.org/frs/download.php/155/%{name}-%{version}.zip
 # Source0-md5:	1e1429994a5b46df6558d241422cfc50
 Patch0:		http://pgfoundry.org/tracker/download.php/1000008/132/1000262/45/pqa.rb.patch
 URL:		http://pqa.projects.postgresql.org/
+BuildRequires:	rpmbuild(macros) >= 1.277
+BuildRequires:	ruby-modules
 BuildRequires:	sed >= 4.0
-Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
