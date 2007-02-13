@@ -1,5 +1,5 @@
 Summary:	Practical Query Analysis
-Summary(pl.UTF-8):   Praktyczny analizator zapytań
+Summary(pl.UTF-8):	Praktyczny analizator zapytań
 Name:		pqa
 Version:	1.5
 Release:	0.4
