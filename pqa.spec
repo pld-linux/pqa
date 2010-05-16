@@ -12,6 +12,7 @@ URL:		http://pqa.projects.postgresql.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
